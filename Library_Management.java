@@ -53,10 +53,10 @@ public class Library_Management
                     break;
 
                 default:
-                    System.out.println("invalid number");
+                    System.out.println("Invalid Number");
             }
 
-            System.out.println("\n you want to select next option Y/N \n");
+            System.out.println("\n You want to select next option Y/N \n");
             r = obj1.next().charAt(0);
         } 
         while (r == 'y' || r == 'Y');
