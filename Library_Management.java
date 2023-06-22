@@ -25,7 +25,8 @@ public class Library_Management
             Scanner obj1 = new Scanner(System.in);
             System.out.println("\n Enter any Number \n ");
             int a = obj1.nextInt();
-            switch (a) {
+            switch (a) 
+            {
                 case 1:
                     library aa = new library();
                     aa.add();
