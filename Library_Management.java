@@ -135,7 +135,7 @@ void ret()
 
 void detail()
 {
-    System.out.println("Book Name ::" +library.Name);
+        System.out.println("Book Name ::" +library.Name);
         System.out.println("Book_id ::"  +library.a);
         System.out.println("Issue Date ::" +library.b);
         System.out.println("Total Book Issued::" +library.c);
@@ -143,11 +143,10 @@ void detail()
 }
 
 void exit()
-   {
+{
      System.exit(0);
-   }
-
-
+}
+    
 }
 
 
